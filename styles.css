@@ -3,6 +3,14 @@ margin:0;
 padding:0;
 }
 
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+footer {
+  color: #f9faf8;
+}
+
 .blue-section {
   background-color: #1F2937;
 }
@@ -32,4 +40,55 @@ padding:0;
 
 .footer {
   height: 100px;
+}
+
+.headertitle {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.nav-link {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.main-title {
+  font-size: 48px;
+  font-weight: bold;
+  color:#f9faf8;
+}
+
+.main-text {
+  font: 18px;
+  color: #e5e7eb;
+}
+
+.btn {
+  background-color: #3882f6;
+}
+
+.info-header {
+  size: 36px;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.subtext {
+  color: grey;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: italic;
+  color: #1f2937;
+}
+
+.cta-container {
+  background-color: #3882f6;
+  color: #f9faf8;
+}
+
+.cta-btn {
+  background-color: #3882f6;
+  color: #f9faf8;
 }
