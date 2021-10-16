@@ -1,0 +1,35 @@
+* {
+margin:0;
+padding:0;
+}
+
+.blue-section {
+  background-color: #1F2937;
+}
+
+.top {
+
+  height: 500px;
+}
+
+.white-section {
+  background-color: #f8f8ff;
+}
+
+.info {
+  height: 400px;
+
+}
+
+.grey-section {
+  background-color: #E5E7EB;
+  height: 300px;
+}
+
+.cta {
+  height: 250px;
+}
+
+.footer {
+  height: 100px;
+}
