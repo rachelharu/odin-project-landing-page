@@ -45,27 +45,64 @@ footer {
 .headertitle {
   font-size: 24px;
   color: #f9faf8;
+  position: relative;
+  left: 150px;
+  padding: 10px;
+  width: 200px;
+}
+
+.navbar {
+  /* border: 1px solid; */
+  position: absolute;
+  left: 700px;
+  top: 20px;
 }
 
 .nav-link {
   font-size: 18px;
   color: #e5e7eb;
+  padding: 10px;
 }
 
 .main-title {
   font-size: 48px;
   font-weight: bold;
   color:#f9faf8;
+  position: relative;
+  left: 150px;
+  top: 100px;
+  width: 400px;
 }
 
 .main-text {
   font: 18px;
   color: #e5e7eb;
+  position: relative;
+  top: 100px;
+  left: 150px;
+  width: 400px;
 }
 
 .btn {
   background-color: #3882f6;
+  position: relative;
+  left: 150px;
+  top: 110px;
+  border-radius: 10px;
+  border: none;
+  width: 100px;
+  height: 30px;
+  color: white;
 }
+
+.some-image {
+  position: absolute;
+  left: 700px;
+  top: 150px;
+  width: 400px;
+  height: 200px;
+}
+
 
 .info-header {
   size: 36px;
