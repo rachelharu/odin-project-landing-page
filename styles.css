@@ -5,6 +5,10 @@ padding:0;
 
 body {
   font-family: Helvetica, sans-serif;
+  /* overflow-x: hidden; */
+  max-width: 88%;
+  margin: auto;
+
 }
 
 footer {
@@ -25,13 +29,51 @@ footer {
 }
 
 .info {
-  height: 400px;
+  height: 600px;
+}
 
+.info-header {
+  size: 36px;
+  font-weight: bold;
+  color: #1f2937;
+  position: relative;
+  left: 550px;
+  top: 35px;
+  padding-bottom: 25px;
+  width: 600px;
+}
+
+.info-container {
+  padding: 30px;
+  display: flex;
+  gap: 5px;
+  height: 400px;
+  position: relative;
+  left: 50px;
+  top: 45px;
+}
+
+.info-images {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  border-radius: 5px;
+}
+
+.subtext {
+  color: grey;
+  width: 350px;
+  position: relative;
+  top: 200px;
+  right: 160px;
+  height: 200px;
 }
 
 .grey-section {
   background-color: #E5E7EB;
   height: 300px;
+  position: relative;
+  top: 0px;
 }
 
 .cta {
@@ -54,7 +96,7 @@ footer {
 .navbar {
   /* border: 1px solid; */
   position: absolute;
-  left: 700px;
+  left: 800px;
   top: 20px;
 }
 
@@ -97,22 +139,14 @@ footer {
 
 .some-image {
   position: absolute;
-  left: 700px;
+  left: 750px;
   top: 150px;
-  width: 400px;
+  width: 500px;
   height: 200px;
 }
 
 
-.info-header {
-  size: 36px;
-  font-weight: bold;
-  color: #1f2937;
-}
 
-.subtext {
-  color: grey;
-}
 
 .quote {
   font-size: 36px;
